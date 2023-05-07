@@ -10,8 +10,8 @@ import java.util.Scanner;
  */
 public class Biblioteca {
 
-    List<Livro> listaLivros;
-    Scanner leitor;
+    private List<Livro> listaLivros;
+    private Scanner leitor;
 
     public Biblioteca() {
         this.listaLivros = new ArrayList<>();
