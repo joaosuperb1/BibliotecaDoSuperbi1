@@ -21,7 +21,7 @@ public class Biblioteca {
 
     
     public void addBook() {
-    Livro novoLivro = new Livro();
+    Livro novoLivro = new Livro(new Autor());
     novoLivro.preencher();
 
     listaLivros.add(novoLivro);

@@ -26,21 +26,117 @@ public class FrBibliotecaDoSuperbi extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        btnCadLivro = new javax.swing.JButton();
+        btnDeleteLivro = new javax.swing.JButton();
+        btnFindLivro = new javax.swing.JButton();
+        imgDavidHarbor = new javax.swing.JLabel();
+        btnFindAutor = new javax.swing.JButton();
+        btnFindCidade = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 48)); // NOI18N
+        jLabel1.setText("Biblioteca do Superbi");
+
+        btnCadLivro.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        btnCadLivro.setText("Cadastrar Livro");
+        btnCadLivro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadLivroActionPerformed(evt);
+            }
+        });
+
+        btnDeleteLivro.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        btnDeleteLivro.setText("RemoverLivro");
+        btnDeleteLivro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDeleteLivroActionPerformed(evt);
+            }
+        });
+
+        btnFindLivro.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        btnFindLivro.setText("Procurar Livro");
+        btnFindLivro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindLivroActionPerformed(evt);
+            }
+        });
+
+        imgDavidHarbor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/5a77bc7246a2880a0d8b4786.png"))); // NOI18N
+        imgDavidHarbor.setText("jLabel2");
+
+        btnFindAutor.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        btnFindAutor.setText("Procurar Autor");
+
+        btnFindCidade.setFont(new java.awt.Font("Segoe UI", 0, 11)); // NOI18N
+        btnFindCidade.setText("Achar Cidade ");
+        btnFindCidade.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFindCidadeActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(59, 59, 59)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 497, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(17, 17, 17)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(imgDavidHarbor, javax.swing.GroupLayout.PREFERRED_SIZE, 566, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnCadLivro)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnDeleteLivro)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnFindLivro)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnFindAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnFindCidade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(32, 32, 32)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCadLivro)
+                    .addComponent(btnDeleteLivro)
+                    .addComponent(btnFindLivro)
+                    .addComponent(btnFindAutor)
+                    .addComponent(btnFindCidade))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(imgDavidHarbor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnCadLivroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadLivroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnCadLivroActionPerformed
+
+    private void btnDeleteLivroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteLivroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnDeleteLivroActionPerformed
+
+    private void btnFindLivroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindLivroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFindLivroActionPerformed
+
+    private void btnFindCidadeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFindCidadeActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnFindCidadeActionPerformed
 
     /**
      * @param args the command line arguments
@@ -68,6 +164,7 @@ public class FrBibliotecaDoSuperbi extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(FrBibliotecaDoSuperbi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
+        //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -78,5 +175,12 @@ public class FrBibliotecaDoSuperbi extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCadLivro;
+    private javax.swing.JButton btnDeleteLivro;
+    private javax.swing.JButton btnFindAutor;
+    private javax.swing.JButton btnFindCidade;
+    private javax.swing.JButton btnFindLivro;
+    private javax.swing.JLabel imgDavidHarbor;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }

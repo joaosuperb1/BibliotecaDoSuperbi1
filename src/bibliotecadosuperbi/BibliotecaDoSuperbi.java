@@ -6,6 +6,8 @@ import classes.Biblioteca;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import gui.FrBibliotecaDoSuperbi;
+
 
 /**
  *
@@ -32,6 +34,10 @@ public class BibliotecaDoSuperbi {
     }
     
     public static void main(String[] args) {
+        
+        FrBibliotecaDoSuperbi tela1 = new FrBibliotecaDoSuperbi();
+        tela1.setVisible(true);
+        
         Biblioteca bbt = new Biblioteca();
 
         int opcao = 0;
