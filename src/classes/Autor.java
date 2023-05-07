@@ -11,6 +11,13 @@ public class Autor {
     private String cidadeNatal;
     private int idadeAutor;
 
+    
+    public Autor(){
+        this.nomeAutor = "";
+        this.cidadeNatal = "";
+        this.idadeAutor = 0;
+    }
+    
     public String getNomeAutor() {
         return nomeAutor;
     }
@@ -35,11 +42,7 @@ public class Autor {
         this.idadeAutor = idadeAutor;
     }
     
-    public Autor(){
-        this.nomeAutor = "";
-        this.cidadeNatal = "";
-        this.idadeAutor = 0;
-    }
+    
     
     public Autor(String nomeAutor, String cidadeNatal, int idadeAutor){
         this.nomeAutor = nomeAutor;
