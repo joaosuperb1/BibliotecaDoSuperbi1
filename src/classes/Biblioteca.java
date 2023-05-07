@@ -19,11 +19,13 @@ public class Biblioteca {
         this.leitor = new Scanner(System.in);
     }
 
+    
     public void addBook() {
-        Livro l1 = new Livro();
-        l1.preencher();
-        listaLivros.add(l1);
-    }
+    Livro novoLivro = new Livro();
+    novoLivro.preencher();
+
+    listaLivros.add(novoLivro);
+}
 
     public void removeBook() {
         System.out.print("Informe o titulo:");
