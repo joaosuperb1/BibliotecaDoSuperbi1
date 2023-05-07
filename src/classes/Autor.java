@@ -21,26 +21,27 @@ public class Autor {
     public String getNomeAutor() {
         return nomeAutor;
     }
-
+    
     public void setNomeAutor(String nomeAutor) {
         this.nomeAutor = nomeAutor;
     }
-
+    
     public String getCidadeNatal() {
         return cidadeNatal;
     }
-
+    
     public void setCidadeNatal(String cidadeNatal) {
         this.cidadeNatal = cidadeNatal;
     }
-
+    
     public int getIdadeAutor() {
         return idadeAutor;
     }
-
+    
     public void setIdadeAutor(int idadeAutor) {
         this.idadeAutor = idadeAutor;
     }
+    
     
     
     
